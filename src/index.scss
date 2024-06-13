@@ -1,0 +1,56 @@
+@import url("./styles/reset.scss");
+
+:root{
+  --pl-color: #fff;
+  --pd-color: #333;
+  --pg-color: #F3F6FC;
+}
+
+*{
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+
+.wrap_c89d{
+  right: 5px !important;
+  bottom: 10px !important;
+}
+
+@media only screen and (max-width: 900px) {
+  ._showLogo_d574{
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+  .icons_ed73{
+    background-repeat: no-repeat !important;
+    background-size: 60%;
+    background-position: right center;
+    object-fit: cover;
+  }
+  .button_e275{
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .wrap_c89d{
+    right:  -10px !important;
+    bottom: 10px !important;
+  }
+}
