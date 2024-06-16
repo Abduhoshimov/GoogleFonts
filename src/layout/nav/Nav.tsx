@@ -83,7 +83,7 @@ const Nav = () => {
               <>
                 <form className="nav-form__wrapper">
                   <i><IoIosSearch /></i>
-                  <input value={inputvalue} onChange={(e) => setInputValue(e.target.value)} type="text" placeholder="Search fonts" />
+                  <input  value={inputvalue} onChange={(e) => setInputValue(e.target.value)} type="search" placeholder="Search fonts" />
                   <div className="nav-select">
                     <Menu
                       onClick={onClick}
